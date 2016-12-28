@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attribute="http://attributeString.com">
+    <PreferenceCategory android:title="@string/display">
+
+        <ListPreference
+            android:defaultValue="DroidSans"
+            android:entries="@array/font"
+            android:entryValues="@array/font"
+            android:key="pref_font"
+            android:summary="@string/font_select"
+            android:title="@string/font" />
+        <nanodegree.example.com.capstoneproject.SeekBarPreference
+            android:defaultValue="24"
+            android:dialogMessage=""
+            android:key="pref_fontsize"
+            android:max="128"
+            android:summary="@string/font_content"
+            android:text=""
+            android:title="@string/font_title"
+            attribute:min="8"
+            attribute:showSize="true" />
+
+        <CheckBoxPreference
+            android:contentDescription="@string/mirror_content"
+            android:defaultValue="true"
+            android:key="pref_mirror"
+            android:summary="@string/mirror_content"
+            android:title="@string/mirror_title" />
+
+        <nanodegree.example.com.capstoneproject.SeekBarPreference
+            android:defaultValue="49"
+            android:dialogMessage=""
+            android:key="pref_speed"
+            android:max="100"
+            android:summary="@string/scroll_speed_content"
+            android:text=""
+            android:title="@string/scroll_speed"
+            attribute:min="1" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/colors">
+        <ListPreference
+            android:defaultValue="#000000"
+            android:entries="@array/colors"
+            android:entryValues="@array/colors_values"
+            android:key="pref_bgcolor"
+            android:summary="@string/background_color_content"
+            android:title="@string/background_color" />
+        <ListPreference
+            android:defaultValue="#FFFFFF"
+            android:entries="@array/colors"
+            android:entryValues="@array/colors_values"
+            android:key="pref_txtcolor"
+            android:summary="@string/text_color_content"
+            android:title="@string/text_color" />
+    </PreferenceCategory>
+</PreferenceScreen>

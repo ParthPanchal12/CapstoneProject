@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/material_layout_app_bar_height"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/material_light_white" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <include layout="@layout/document_list" />
+
+    </FrameLayout>
+
+    <include layout="@layout/empty_list" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="55dp"
+        android:layout_height="52dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/material_component_floating_action_button_margin"
+        android:clickable="true"
+        android:contentDescription="@string/button_startType"
+        android:elevation="6dp"
+        android:onClick="newDocument"
+        android:src="@drawable/ic_add_white_48dp"
+        app:pressedTranslationZ="12dp"
+        app:rippleColor="@android:color/white" />
+
+</android.support.design.widget.CoordinatorLayout>

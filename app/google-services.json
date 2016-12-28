@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "515436598928",
+    "firebase_url": "https://teleprompter-9b9d3.firebaseio.com",
+    "project_id": "teleprompter-9b9d3",
+    "storage_bucket": "teleprompter-9b9d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515436598928:android:053d0032f9c3a81a",
+        "android_client_info": {
+          "package_name": "nanodegree.example.com.capstoneproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515436598928-aavirltcsq09vhpv32398adj900lojvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAQI6exbtMoIcpa19wUrZHoQVXjAdK-m0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

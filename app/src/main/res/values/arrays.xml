@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colors">
+        <item>Black</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+    </string-array>
+    <string-array name="colors_values">
+        <item>\#000000</item>
+        <item>\#FFFFFF</item>
+        <item>\#FF0000</item>
+        <item>\#00FF00</item>
+        <item>\#0000FF</item>
+        <item>\#FFFF00</item>
+        <item>\#FF6600</item>
+    </string-array>
+    <string-array name="font">
+        <item>Courier</item>
+        <item>DroidSans</item>
+        <item>Roboto</item>
+        <item>IndieFlower</item>
+        <item>Lobster</item>
+        <item>Verdana</item>
+        <item>MerriweatherSans</item>
+        <item>OpenSans</item>
+        <item>SpaceMono</item>
+    </string-array>
+    <string-array name="orientations">
+        <item>Portrait</item>
+        <item>Landscape</item>
+    </string-array>
+</resources>
